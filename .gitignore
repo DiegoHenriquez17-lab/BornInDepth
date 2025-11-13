@@ -1,7 +1,6 @@
-# Unity (generados)
+# --- Carpetas generadas por Unity ---
 [Ll]ibrary/
 [Tt]emp/
-[Pp]ackageCache/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
@@ -9,16 +8,32 @@
 UserSettings/
 MemoryCaptures/
 
-# IDEs
-.vs/
-*.csproj
-*.sln
-*.user
-*.unityproj
-*.booproj
-.idea/
-*.iml
+# --- Package Manager Cache ---
+Packages/*/
+!Packages/manifest.json
+!Packages/packages-lock.json
 
-# OS
+# --- Plastic SCM ---
+.plastic/
+
+# --- Archivos de IDE ---
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.pdb
+.vs/
+.idea/
+
+# --- Sistema operativo ---
 .DS_Store
 Thumbs.db
+
+# --- Mantener los .meta (MUY IMPORTANTE) ---
+!*.meta
+
